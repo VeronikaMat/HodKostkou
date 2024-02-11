@@ -3,7 +3,11 @@
 let teplota= Number (prompt("Zadej teplotu v jednotkách °F:"))
 
 
-const stupneC= (5/9 * (teplota-32))
+let stupneC= (5/9 * (teplota-32))
 
-document.body.innerHTML = Math.floor(stupneC)
+document.body.innerHTML = Math.floor(stupneC) + "°C"
+
+
+
+
 
